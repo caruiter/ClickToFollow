@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ClickToFollowSimple.unity
+    guid: 5c8ab3982f2234b30b7c8efe64882914
+  - enabled: 0
+    path: Assets/Scenes/ClickToFollowDev.unity
+    guid: 6d7ec2405d8c34b52820d2eaa36eb4d1
   m_configObjects: {}

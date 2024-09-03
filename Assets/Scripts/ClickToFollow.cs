@@ -15,13 +15,13 @@ public class ClickToFollow : MonoBehaviour
     [SerializeField] float speed;
 
     //the path the sprite will follow
-    public List<Vector2> pathMarkers;
+    private List<Vector2> pathMarkers;
 
     //is the sprite currently moving?
-    public bool moving;
+    private bool moving;
 
     //next marker that the sprite will move towards
-    public Vector2 toMarker;
+    private Vector2 toMarker;
 
     // Start is called before the first frame update
     void Start()
